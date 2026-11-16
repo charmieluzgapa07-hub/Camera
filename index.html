@@ -28,6 +28,7 @@
             flex-direction: column;
             align-items: flex-start;
             gap: 6px;
+           
             width: 100%;
             max-width: 900px;
         }
@@ -133,14 +134,12 @@
         // Synchronized Remote Channel
         const channel = new BroadcastChannel('banner_remote_channel');
 
-        // Default Data Structure
         const defaultData = {
             text1: "CONNECT WITH US",
             text2: "TOGETHER Church Skyline - UPC",
             text3: "TOGETHER Worship",
             textColor: "#1a1a1a",
             highlightColor: "#333333",
-            bgColor: "#ffffff",
             borderColor: "#2d3a60"
         };
 
